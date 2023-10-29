@@ -1,0 +1,41 @@
+body {
+  background-color: aqua;
+}
+
+.container {
+  width: 50%;
+  max-width: 1000px;
+  margin: 200px auto;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container #input_1 {
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid green;
+}
+.container #input_2 {
+  width: 480px;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border: 1px solid green;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: green;
+  transition: all 0.4s;
+}/*# sourceMappingURL=style.css.map */
